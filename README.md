@@ -1,2 +1,2 @@
 # TrendSpy
-View and apply data indicators on Google Trends data.
+View and apply data indicators on social media data.
