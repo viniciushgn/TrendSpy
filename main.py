@@ -5,9 +5,8 @@ import yfinance as yf
 from prophet import Prophet
 from prophet.plot import plot_plotly
 from plotly import graph_objects as go
-from pytrends.request import TrendReq
 
-pytrends = TrendReq(hl='en-US', tz=360)
+
 
 #configurando pagina streamlit-------------------------------------------------
 st.set_page_config(
@@ -39,14 +38,10 @@ searchTerm = st.text_input('', 'Calculator')
 
 st.write('The current search term to analyze is', searchTerm)
 st.markdown("---")
-
-kw_list = [searchTerm]
-pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
-
-pytrends.interest_over_time()
+#PYTRENDS CODE------------------------------
 
 
-
+#-------------------------------------------
 st.markdown("---")
 col1Bottom, col2Bottom, col3Bottom = st.columns([1,1,1])
 with col1Bottom:
