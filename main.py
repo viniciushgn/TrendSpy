@@ -40,6 +40,7 @@ st.write('The current search term to analyze is', searchTerm)
 st.markdown("---")
 #PYTRENDS CODE------------------------------
 
+st.subheader("🚧API scraper in development.🚧🏗️")
 
 #-------------------------------------------
 st.markdown("---")
@@ -48,7 +49,9 @@ with col1Bottom:
     st.write("")
 
 with col2Bottom:
-    st.image(imageGitLink, width= 255)
+    st.image(imageGitLink, width= 255, caption='viniciushgn.github.io')
+
+
     
 with col3Bottom:
     st.write("")
