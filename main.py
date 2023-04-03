@@ -40,7 +40,7 @@ st.write('The current search term to analyze is', searchTerm)
 st.markdown("---")
 #PYTRENDS CODE------------------------------
 
-st.subheader("🚧API scraper in development.🚧🏗️")
+st.subheader("🚧API scraper in development.🚧")
 
 #-------------------------------------------
 st.markdown("---")
